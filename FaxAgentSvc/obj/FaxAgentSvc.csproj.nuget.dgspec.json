@@ -1,0 +1,576 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FaxAgentSvc\\FaxAgentSvc.csproj": {}
+  },
+  "projects": {
+    "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FaxAgentSvc\\FaxAgentSvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FaxAgentSvc\\FaxAgentSvc.csproj",
+        "projectName": "FaxAgent",
+        "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FaxAgentSvc\\FaxAgentSvc.csproj",
+        "packagesPath": "C:\\Users\\praet\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FaxAgentSvc\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\NuGet.Config",
+          "C:\\Users\\praet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.faxcoreasia.com/nuget": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC.ServiceAgent\\FXC.ServiceAgent.csproj": {
+                "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC.ServiceAgent\\FXC.ServiceAgent.csproj"
+              },
+              "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Broadcaster\\FXC6.Broadcaster.csproj": {
+                "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Broadcaster\\FXC6.Broadcaster.csproj"
+              },
+              "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Entity\\FXC6.Entity.csproj": {
+                "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Entity\\FXC6.Entity.csproj"
+              },
+              "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.FaxAgentHost\\FXC6.FaxAgentHost.csproj": {
+                "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.FaxAgentHost\\FXC6.FaxAgentHost.csproj"
+              },
+              "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Licensing\\FXC6.Licensing.csproj": {
+                "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Licensing\\FXC6.Licensing.csproj"
+              },
+              "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Secure\\FXC6.Secure.csproj": {
+                "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Secure\\FXC6.Secure.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Autofac.Owin": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Autofac.WebApi2": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.50.2, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "FaxCore.FaxServer": {
+              "target": "Package",
+              "version": "[3.1.170, )"
+            },
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.AspNet.WebApi.OwinSelfHost": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Owin.Security.OAuth": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "NetMQ": {
+              "target": "Package",
+              "version": "[4.0.1.13, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.5, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC.ServiceAgent\\FXC.ServiceAgent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC.ServiceAgent\\FXC.ServiceAgent.csproj",
+        "projectName": "FXC.ServiceAgent",
+        "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC.ServiceAgent\\FXC.ServiceAgent.csproj",
+        "packagesPath": "C:\\Users\\praet\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC.ServiceAgent\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\NuGet.Config",
+          "C:\\Users\\praet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.faxcoreasia.com/nuget": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Entity\\FXC6.Entity.csproj": {
+                "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Entity\\FXC6.Entity.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.AspNet.SignalR.Client": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.2.1, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Broadcaster\\FXC6.Broadcaster.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Broadcaster\\FXC6.Broadcaster.csproj",
+        "projectName": "FXC6.Broadcaster",
+        "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Broadcaster\\FXC6.Broadcaster.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.DL.Lib\\FXC6.DL.Lib.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.DL.Lib\\FXC6.DL.Lib.csproj",
+        "projectName": "FXC6.DL.Lib",
+        "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.DL.Lib\\FXC6.DL.Lib.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.DL\\FXC6.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.DL\\FXC6.DL.csproj",
+        "projectName": "FXC6.DL",
+        "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.DL\\FXC6.DL.csproj",
+        "packagesPath": "C:\\Users\\praet\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\NuGet.Config",
+          "C:\\Users\\praet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.faxcoreasia.com/nuget": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.DL.Lib\\FXC6.DL.Lib.csproj": {
+                "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.DL.Lib\\FXC6.DL.Lib.csproj"
+              },
+              "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Secure\\FXC6.Secure.csproj": {
+                "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Secure\\FXC6.Secure.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.50.2, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Entity\\FXC6.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Entity\\FXC6.Entity.csproj",
+        "projectName": "FXC6.Entity",
+        "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Entity\\FXC6.Entity.csproj",
+        "packagesPath": "C:\\Users\\praet\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\NuGet.Config",
+          "C:\\Users\\praet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.faxcoreasia.com/nuget": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.DL\\FXC6.DL.csproj": {
+                "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.DL\\FXC6.DL.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.FaxAgentHost\\FXC6.FaxAgentHost.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.FaxAgentHost\\FXC6.FaxAgentHost.csproj",
+        "projectName": "FXC6.FaxAgentHost",
+        "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.FaxAgentHost\\FXC6.FaxAgentHost.csproj",
+        "packagesPath": "C:\\Users\\praet\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.FaxAgentHost\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\NuGet.Config",
+          "C:\\Users\\praet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.faxcoreasia.com/nuget": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Entity\\FXC6.Entity.csproj": {
+                "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Entity\\FXC6.Entity.csproj"
+              },
+              "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Secure\\FXC6.Secure.csproj": {
+                "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Secure\\FXC6.Secure.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "BitMiracle.LibTiff.NET": {
+              "target": "Package",
+              "version": "[2.4.649, )"
+            },
+            "EtherFax.Client": {
+              "target": "Package",
+              "version": "[3.1.44, )"
+            },
+            "FaxCore.FaxServer": {
+              "target": "Package",
+              "version": "[3.1.170, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Licensing\\FXC6.Licensing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Licensing\\FXC6.Licensing.csproj",
+        "projectName": "FXC6.Licensing",
+        "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Licensing\\FXC6.Licensing.csproj",
+        "packagesPath": "C:\\Users\\praet\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Licensing\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\NuGet.Config",
+          "C:\\Users\\praet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.faxcoreasia.com/nuget": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.2.1, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Secure\\FXC6.Secure.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Secure\\FXC6.Secure.csproj",
+        "projectName": "FXC6.Secure",
+        "projectPath": "D:\\Workspace\\TFS\\FaxCorev6\\FaxCoreV6-2025\\FXC6.Secure\\FXC6.Secure.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}
